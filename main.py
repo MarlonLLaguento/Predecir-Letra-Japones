@@ -1,5 +1,4 @@
 import os
-import io
 import tempfile
 from flask import Flask, request, redirect, render_template, url_for
 from skimage import io
