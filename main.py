@@ -37,7 +37,6 @@ def predict():
         return redirect(url_for('show_predictions', nums=cadena_formateada, img_data=img_data))
     except:
         print("Error occurred")
-        return redirect(url_for('show_predictions', nums=cadena_formateada, img_data=img_data))
 
     return redirect("/", code=302)
 
