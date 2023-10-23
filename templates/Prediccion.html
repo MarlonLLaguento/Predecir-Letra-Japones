@@ -12,12 +12,12 @@
 
 <div class="contenedor">
     <div>
-        <h1>Prenda dibujada</h1>
-        <img src="data:image/png;base64,{{ img_data }}" alt="fruta">
+        <h1>Letra dibujada</h1>
+        <img src="data:image/png;base64,{{ img_data }}" alt="letra">
     </div>
     <ul>
         {% for num in nums %}
-            <li>{{ num }}% {{ frutas[loop.index0] }}</li>
+            <li>{{ num }}% {{ letras[loop.index0] }}</li>
         {% endfor %}
     </ul>
     <a href="/">Ir a la página principal</a>
